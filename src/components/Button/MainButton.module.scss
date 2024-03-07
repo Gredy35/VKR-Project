@@ -1,0 +1,26 @@
+@import "../../styles/constants";
+
+.button,
+.button-disabled {
+  padding: 0.8rem 3.9rem;
+  width: fit-content;
+  height: fit-content;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: $light-color;
+  background-color: $primary-color;
+  font-weight: 400;
+  border-radius: 2.5rem;
+  transition: all .4s;
+}
+
+@media (hover: hover) {
+  .button:hover {
+    background-color: $accent-color;
+  }
+}
+
+.button-disabled {
+  cursor: not-allowed;
+  color: $disabled-color;
+}

@@ -1,0 +1,42 @@
+@import "../../styles/constants";
+
+.navigation-card {
+  background-color: $additional-color;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 1.4em;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.navigation-card__title {
+  font-size: 1.7em;
+  line-height: 1.1em;
+  text-align: center;
+  color: $dark-color;
+  margin: 0;
+  margin: 0.2em;
+}
+
+.navigation-card__img {
+  display: flex;
+  height: 26rem;
+  background-size: 10rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.navigation-card__description {
+  min-height: 8rem;
+}
+
+.navigation-card .navigation-card__img {
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  .navigation-card:hover .navigation-card__img {
+    background-size: 12rem;
+  }
+}
