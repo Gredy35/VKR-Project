@@ -35,7 +35,7 @@
     right: 2rem;
     width: 2.5rem;
     height: 2.5rem;
-    background-image: url('/public/svg/xmark-solid.svg');
+    background-image: url('/svg/xmark-solid.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -45,7 +45,7 @@
 
   @media (hover: hover) {
     .popup-close:hover {
-      background-image: url('/public/svg/xmark-hover.svg');
+      background-image: url('/svg/xmark-hover.svg');
     }
   }
 
