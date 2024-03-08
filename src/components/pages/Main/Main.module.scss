@@ -1,0 +1,59 @@
+@import "../../../styles/constants";
+.main {
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: calc(100vh - 8rem);
+    background-image: url("/png/mpei.png");
+    background-position: center;
+    background-size: cover;
+    filter: opacity(0.6) brightness(0.65);
+  }
+}
+
+.main__background {
+  position: relative;
+  background-image: url("/svg/diploma.svg");
+  background-position: right -1.9rem bottom -16.4rem;
+  background-repeat: no-repeat;
+  background-size: 88rem 88rem;
+}
+
+.main__container {
+  display: flex;
+  align-items: center;
+  min-height: calc(100vh - 8rem);
+}
+
+.main__navigation {
+  width: 100%;
+  display: grid;
+  padding: 0 4rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 4rem;
+  grid-row-gap: 3rem;
+}
+
+.main__info {
+  margin-left: 7.5rem;
+  max-width: 53.3rem;
+}
+
+.main__title {
+  color: $light-color;
+  position: relative;
+  font-size: 9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main__text {
+  color: $light-color;
+  position: relative;
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}

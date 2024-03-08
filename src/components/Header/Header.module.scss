@@ -1,0 +1,20 @@
+@import "../../styles/constants";
+
+.header {
+  height: 8rem;
+  margin: 0 auto;
+  max-width: $xxl;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $bg-color;
+  box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  color: $primary-color;
+  font-size: 3.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-left: 3rem;
+}
